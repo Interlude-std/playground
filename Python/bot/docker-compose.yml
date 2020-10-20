@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+    botsrv:
+        container_name: yunbot
+        build: .
+        tty: true
+        volumes:
+            - ./:/work
+        environment:
+            TZ: Asia/Tokyo
