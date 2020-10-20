@@ -1,0 +1,1 @@
+* * * * * /usr/local/bin/python3 /work/yunbot.py > /tmp/yunbot.log 2>&1
