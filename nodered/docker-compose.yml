@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+    node-srv:
+        container_name: noderedsrv
+        build: .
+        tty: true
+        volumes:
+            - ../Python/bot:/work
+        ports:
+            - "1880:1880"
+        environment:
+            TZ: Asia/Tokyo
