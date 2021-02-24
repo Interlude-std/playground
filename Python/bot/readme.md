@@ -1,3 +1,3 @@
-'''javascript --run
-console.log("test");
+'''javascript --run  
+console.log("test");  
 '''
